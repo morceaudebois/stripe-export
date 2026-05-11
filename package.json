@@ -1,0 +1,24 @@
+{
+  "name": "stripe-export",
+  "version": "1.0.0",
+  "description": "This is a small Node script that uses the Stripe API to export your transactions with their country of origin (which isn't possible to do with Stripe's official tools).",
+  "main": "export.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morceaudebois/stripe-export.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morceaudebois/stripe-export/issues"
+  },
+  "homepage": "https://github.com/morceaudebois/stripe-export#readme",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "stripe": "^22.1.1"
+  }
+}
