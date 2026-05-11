@@ -1,3 +1,5 @@
+# Export your Stripe transactions with their country of origin
+
 This is a small Node script that uses the Stripe API to export your transactions with their country of origin (which isn't possible to do with Stripe's official tools).
 
 All neatly documented on my blog post: https://tahoe.be/post/export-stripe-transactions-with-country
