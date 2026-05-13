@@ -7,6 +7,6 @@ All neatly documented on my blog post: https://tahoe.be/post/export-stripe-trans
 But it short if you want to use it:
 
 1. Install Node
-2. Clone the repo & `cd` to it
+2. Clone the repo & `cd` to it, then `npm i`
 3. Create a Stripe restricted API key
 4. Run this command: `STRIPE_SECRET_KEY=replace_with_your_API_key node export.js`
